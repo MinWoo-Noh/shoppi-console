@@ -1,4 +1,4 @@
-## 18강. Class, Interface
+# 18강. Class, Interface
 
 ## 1. Class
 - class 는 객체를 정의하는 방법이다.
@@ -240,7 +240,7 @@ class Rectangle : Polygon() {
     }
 }
 ~~~
-
+## 3. interface
 ~~~kotlin
 interface MyInterface {
     // 프로퍼티 정의 가능
@@ -269,9 +269,5 @@ class Child : MyInterface {
     }
 }
 ~~~
-
-## 3. interface
-
-## 19강. 개념 3-3 함수
     
     
