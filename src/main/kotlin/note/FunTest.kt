@@ -1,4 +1,4 @@
-//open class Shape(vertexCount : Int){
+package note//open class Shape(vertexCount : Int){
 //    init {
 //        println("ShaperClass 초기화, vertexCount : $vertexCount ")
 //    }
