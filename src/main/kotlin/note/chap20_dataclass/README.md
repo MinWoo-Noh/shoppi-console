@@ -1,4 +1,4 @@
-# 12강. data class
+# 21강. data class
 
 ## 1. inheritance (상속)
 
