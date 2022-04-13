@@ -1,4 +1,4 @@
-import scrren.ShoppingHome
+import scrren.*
 
 fun main(args: Array<String>) {
 
