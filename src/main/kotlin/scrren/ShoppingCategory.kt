@@ -18,13 +18,15 @@ class ShoppingCategory {
             selectedCategory = readLine()
         }
         if (selectedCategory == "#") {
-            // TODO 장바구니이동
+            // TODO 1. 장바구니이동
         } else {
+            // contains 지정 항목이 컬렉션에 포함되어 있는지 반환
             if (categories.contains(selectedCategory)) {
-                // TODO 카테고리 상품 목록 보여주기
+                // TODO 2.카테고리 상품 목록 보여주기
                 val shoppingProductList = ShoppingProductList()
                 shoppingProductList.showProducts(selectedCategory)
             } else {
+                // TODO 3.카테고리 목록에 없는 값을 입력하는 경우
                 showErrorMessage(selectedCategory)
             }
         }
