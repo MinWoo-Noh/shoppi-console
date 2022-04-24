@@ -24,7 +24,7 @@ class Product(val category : String, val name : String = "") {
 // 출력 결과 :: Product@6bdf28bb
 ~~~
 
-- 위와 같은 문자열 표현은 인스턴스 정보를 업ㄷ는데 도움이 안된다.
+- 위와 같은 문자열 표현은 인스턴스 정보를 얻는데 도움이 안된다.
 
 ## 2. toString override
 ~~~kotlin

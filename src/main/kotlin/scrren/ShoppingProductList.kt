@@ -4,7 +4,7 @@ import data.Product
 
 // Category 별 상품 List(목록)을 관리하고, 사용자가 요청한 상품 표시하는 클래스
 class ShoppingProductList {
-    private val product = arrayOf(
+    private val products = arrayOf(
         Product("패션","겨울 패딩"),
         Product("패션","겨울 바지"),
         Product("전자기기","블루투스 이어폰"),
@@ -20,8 +20,8 @@ class ShoppingProductList {
     // key : group 을 묶어줄 조건, value : key 조건에 만족하는 원소들 리스트
     // categories : Map<String, List<Product>> = groupBy(keySelector: (T) -> K)
     // categories[key] 키에 맞는 원소의 리스트를 불러오는 구조
-    private val categories : Map<String, List<Product>> = product.groupBy { product ->
-        product.categoryLavel
+    private val categories : Map<String, List<Product>> = products.groupBy { product ->
+        product.categoryLabel
     }
 
     // 사용자가 요청한 상품을 출력하는 함수
