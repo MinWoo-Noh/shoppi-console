@@ -33,12 +33,13 @@ open fun toString(): String
 ![img.png](img.png)
 
 ~~~kotlin
-// final 로 디폴트가 되어있기 때문에 open 키워드로 영어줘야 상속이 가능 하다.
+// final 로 디폴트가 되어있기 때문에 open 키워드로 열어줘야 상속이 가능 하다.
 final class Store {...}
 ~~~
 >- class 는 open 키워드가 붙어야만 상속할 수 있다.
 >- class 에 파라미터가 있다면 파라미터도 같이 상속해야한다.
 >- 하나의 쿨레스만 상속 가능하다.
+
 ~~~kotlin
 open class Base(p : Int)
 
