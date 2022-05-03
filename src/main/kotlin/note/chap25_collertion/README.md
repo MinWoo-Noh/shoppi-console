@@ -6,7 +6,7 @@
 
 ![img.png](img.png)
 
-1, List (순서를 가진 컬렉션)
+1. List (순서를 가진 컬렉션)
 
 - ordered collection
 - index 로 원소에 접근 가능 listOf(1, 2, 2) // [1, 2, 2]
