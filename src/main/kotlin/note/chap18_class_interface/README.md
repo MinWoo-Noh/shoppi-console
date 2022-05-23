@@ -33,7 +33,7 @@ open fun toString(): String
 ![img.png](img.png)
 
 ~~~kotlin
-// final 로 디폴트가 되어있기 때문에 open 키워드로 영어줘야 상속이 가능 하다.
+// final 로 디폴트가 되어있기 때문에 open 키워드로 열어줘야 상속이 가능 하다.
 final class Store {...}
 ~~~
 >- class 는 open 키워드가 붙어야만 상속할 수 있다.
@@ -70,7 +70,7 @@ public class Person {
 }
 ~~~
 
-java 는 데이ㅓ를 field 에 저장한다. 그리고 getter/setter 메소드와 같은 **보일러플레이트** 코드가 지저분하게 많아진다.
+java 는 데이터를 field 에 저장한다. 그리고 getter/setter 메소드와 같은 **보일러플레이트** 코드가 지저분하게 많아진다.
 - ❓ Boilerplate (code) : 코드 재사용성과 관련지어서 정의된다.(최소한의 변경으로 여로곳에서 재사용되며, 반복적으로 비슷한 형태를 띄는 코드를 지칭한다.)
 
 위 Java 코드를 코틀린으로 표현하면 간단해 진다.

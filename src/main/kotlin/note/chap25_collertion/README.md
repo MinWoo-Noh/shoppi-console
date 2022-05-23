@@ -82,7 +82,8 @@ println("${list.last()}, ${list.lastOrNull()}") // 마지막 데이터가 없는
 
 ~~~kotlin
 val list = listOf(1, 2, 3, 4, 5)
-// it은 list 의 원소를 의미하고, list 의 원소를 첫번째 부터 꺼내 3보다 큰 값인지 확인한다. 3보다 큰 첫번째 값을 반환하며, 존재하지 않으면 null 을 반환한다.
+// it은 list 의 원소를 의미하고, list 의 원소를 첫번째 부터 꺼내 3보다 큰 값인지 확인한다. 
+// 3보다 큰 첫번째 값을 반환하며, 존재하지 않으면 null 을 반환한다.
 println("${list.firstOrNull { it > 3 }}")
 println("${list.find { it > 3 }}") // 의와 같은 동작을 함.
 
