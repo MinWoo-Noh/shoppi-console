@@ -39,6 +39,7 @@ final class Store {...}
 >- class 는 open 키워드가 붙어야만 상속할 수 있다.
 >- class 에 파라미터가 있다면 파라미터도 같이 상속해야한다.
 >- 하나의 쿨레스만 상속 가능하다.
+
 ~~~kotlin
 open class Base(p : Int)
 
